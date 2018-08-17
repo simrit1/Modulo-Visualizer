@@ -3,6 +3,7 @@ from Tkinter import *
 from math import *
 
 master = Tk()
+master.title('Multiplication Animation')
 
 def placeCoordinates():
     x=0.0
