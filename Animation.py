@@ -1,3 +1,4 @@
+#William Ambrozic 2018
 from Tkinter import *
 from math import *
 
@@ -56,6 +57,5 @@ corrdinates = list(zip(x, y))
 placeCoordinates()
 
 master.after(0, animate)
-
 
 master.mainloop()
