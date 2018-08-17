@@ -1,4 +1,4 @@
-#Recording Version
+#William Ambrozic 2018
 from turtle import *
 import Tkinter as tk
 from tkColorChooser import askcolor
