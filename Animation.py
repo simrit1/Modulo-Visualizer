@@ -43,7 +43,7 @@ scale = IntVar()
 scale.set(420)
 
 degree = DoubleVar()
-degree.set(-30)
+degree.set(0) #Start Value
 
 x,y = [],[]
 for i in range(360):

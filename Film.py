@@ -6,10 +6,10 @@ from mingus.midi import fluidsynth
 fluidsynth.init('/usr/share/sounds/sf2/FluidR3_GM.sf2',"alsa")
 
 def getDots(Link, view):
-    scale = 8.5 #increses / decreases the size of the patterns to a factor of scale
+    scale = 6 #increses / decreases the size of the patterns to a factor of scale
     t.tracer(0)
     for x in range(numONodes.get()):
-        #t.dot(5, nodeColor.get())
+        if (rainbow.get() == 0): t.dot(5, nodeColor.get())
         Link[x] = t.position()
         t.forward(scale * 360.0/numONodes.get()) #I want all of the shapes to be to same relative size
         t.left(360.0/numONodes.get()) #After simpliying (n-2) * 180 given that I need to find the complimentary angle
@@ -33,7 +33,7 @@ def createPoly(view):
     else:
         t.tracer(1)
     for x in range(numONodes.get()):
-        t.color(colors[x % 69])
+        if rainbow.get() == 1: t.color(colors[x % 69])
         t.penup()
         t.goto(Link[x])
         t.pendown()
@@ -43,7 +43,7 @@ def createPoly(view):
             t.goto(Link[value % numONodes.get()])
         else:
            t.goto(Link[value])
-        #t.dot(5, hitNodeColor.get())# before it goes back change the color of the targeted node
+        if (rainbow.get() == 0): t.dot(5, hitNodeColor.get())# before it goes back change the color of the targeted node
         t.goto(Link[x])
     t.penup()
     t.goto(Link[0]) #The pen needs to go back to the start so the next pattern can be drawn
@@ -65,7 +65,7 @@ def changeHitNodeColor():
 
 root = tk.Tk()
 root.title('Mulitplication Visualizer')
-canvas = tk.Canvas(master = root, width = 1000, height = 1000)
+canvas = tk.Canvas(master = root, width = 800, height = 800)
 #root.resizable(False, False)
 canvas.pack()
 fluidsynth.init("soundfont.SF2")
@@ -74,16 +74,16 @@ t = RawTurtle(canvas)
 t.ht() #Hides curser
 t.screen.bgcolor('black')
 t.penup()
-t.sety(-480)
+t.sety(-330)
 t.pensize(1)
 
 numONodes = tk.IntVar()
-#e2 = tk.Scale(master = root, from_=50, to=1000, variable=numONodes, length=700, orient=tk.HORIZONTAL, label="# of Nodes").pack(side = tk.BOTTOM)
+e2 = tk.Scale(master = root, from_=50, to=1000, variable=numONodes, length=700, orient=tk.HORIZONTAL).pack(side = tk.BOTTOM)
 numONodes.set(360)
 
 degree = tk.StringVar()
-degree.set("179.5")
-#e2 = tk.Entry(master = root, textvariable=degree).pack(side = tk.TOP)
+degree.set("101")
+e2 = tk.Entry(master = root, textvariable=degree).pack(side = tk.TOP)
 
 lineColor = tk.StringVar()
 lineColor.set("red")
@@ -92,6 +92,10 @@ nodeColor.set("red")
 hitNodeColor = tk.StringVar()
 hitNodeColor.set("red")
 
+rainbow = tk.IntVar()
+rainbow.set(0)
+Rainbow = tk.Checkbutton(master = root, text="Rainbow", variable=rainbow).pack(side = tk.LEFT)
+
 View = tk.Button(master = root, text = "View", command = lambda: createPoly(True)).pack(side = tk.RIGHT)
 Draw = tk.Button(master = root, text = "Draw", command = lambda: createPoly(False)).pack(side = tk.RIGHT)
 Clear = tk.Button(master = root, text = "Clear", command = t.clear).pack(side = tk.RIGHT)
@@ -99,9 +103,5 @@ BackColor = tk.Button(master = root, text = "Background Color", command = change
 LineColor = tk.Button(master = root, text = "Line Color", command = changeLineColor).pack(side = tk.RIGHT)
 NodeColor = tk.Button(master = root, text = "Node Color", command = changeNodeColor).pack(side = tk.RIGHT)
 HitNodeColor = tk.Button(master = root, text = "Hit Node Color", command = changeHitNodeColor).pack(side = tk.RIGHT)
-#Line = canvas.create_line(300, 380 , 350, 380, fill=lineColor.get(), width=10)
-#Node = canvas.create_oval(300, 300 , 350, 350, fill=lineColor.get())
-
-#init()
 
 root.mainloop()
