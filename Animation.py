@@ -9,14 +9,14 @@ def placeCoordinates():
     x=0.0
     y=0.0
     for z in range(360):
-        x = 500 + scale.get() * sin((z*pi)/180)
-        y = 430 + scale.get() * cos((z*pi)/180)
-        corrdinates[z] = (x, y)
+        x = 500 + scale.get() * sin((z*pi)/180) #Converting Degrees to Radians
+        y = 430 + scale.get() * cos((z*pi)/180) #Converting Degrees to Radians
+        corrdinates[z] = (x, y) #Adding Coordinate to Touple List
 
 def draw():
     for x in range(360):
         value = (x * degree.get()) % 360
-        w.create_line(corrdinates[x][0], corrdinates[x][1], corrdinates[int(value)][0], corrdinates[int(value)][1], fill = colors[x % 69])
+        w.create_line(corrdinates[x][0], corrdinates[x][1], corrdinates[int(value)][0], corrdinates[int(value)][1], fill = colors[x % 69]) #Drawing Lines to the Wanted Node
 
 def animate():
     degree.set(degree.get() + 0.01)
@@ -34,7 +34,7 @@ colors = ["#660000", "#990000", "#CC0000", "#FF0000", "#CC3333", "#FF6666", "#FF
         "#CCFFCC", "#003333", "#336666", "#009999", "#00CCCC", "#66CCCC", "#66FFCC", "#99FFCC", "#003399", "#0033FF",
         "#0066FF", "#00CCFF", "#00FFFF", "#99FFFF", "#CCFFFF", "#000066", "#000099", "#0000CC", "#0000FF", "#3366FF",
         "#3399FF", "#66CCFF", "#99CCFF", "#330066", "#660099", "#663399", "#9900CC", "#9933FF", "#9966FF", "#9999FF",
-        "#CCCCFF", "#660066", "#990066", "#CC0099", "#FF0099", "#FF00FF", "#FF66FF", "#FF99FF", "#FFCCFF"]
+        "#CCCCFF", "#660066", "#990066", "#CC0099", "#FF0099", "#FF00FF", "#FF66FF", "#FF99FF", "#FFCCFF"] #Rainbow Gradient: Copy Paste Values, Could have used loop to Generate
 
 w = Canvas(master, width=1000, height=1000)
 w.pack()
@@ -53,7 +53,7 @@ for i in range(360):
         x.append(xcorrdinate)
         ycorrdinate = DoubleVar()
         y.append(ycorrdinate)
-corrdinates = list(zip(x, y))
+corrdinates = list(zip(x, y)) #Conflating both Lists to a List of Touple
 
 placeCoordinates()
 
