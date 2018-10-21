@@ -3,20 +3,42 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 
 ## Contents
 - [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
-- [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
-  - [About](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#about)
-  - [Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
+  - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#theprogram)
+- [Singular Functions (Main.py)](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
+  - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
+- [Animation (Animation.py)](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation)
+  - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
 
-## Main.py  
+## Screenshots
+
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
+
+![Multiplication Overview](https://i.imgur.com/c2jAxCJ.png)
+
+## The Program
+
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
+
+| ![Shot 1](https://i.imgur.com/8wITa8I.png) | ![Shot 2](https://i.imgur.com/zV3LAhd.png) |
+|--------------------------------------------|-------------------------------------------|
+| ![Shot 3](https://i.imgur.com/kZWvOLd.png) | ![Shot 4](https://i.imgur.com/pRDAeUn.png) |
+
+## Singular Functions (Main.py)
+
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
+
 This program lets the user view a times table and tinker with the number of nodes or the colors of its elements.
 
-view [here](https://www.youtube.com/watch?v=Jg_o1jh4RGk&t=3s) on youtube.
+## Singular Demo Video
 
-![](https://github.com/WilliamAmbrozic/Multiplication-Visualizer/blob/master/Screenshots/red_img.png)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-## Animation.py  
+[![Visualizing Multiplication](https://i.imgur.com/nIpB5yC.png)](https://www.youtube.com/watch?v=Jg_o1jh4RGk)
+
+## Animation (Animation.py)  
+
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
+
 This program lets the user view an animation from a given start factor.
 
-view [here](https://www.youtube.com/watch?v=-6k-0unlRC0) on youtube.
-
-![](https://github.com/WilliamAmbrozic/Multiplication-Visualizer/blob/master/Screenshots/178.55.png)
+[![Multiplication in Motion](https://i.imgur.com/uNqEieF.png)](https://www.youtube.com/watch?v=-6k-0unlRC0)
