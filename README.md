@@ -23,7 +23,7 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 |--------------------------------------------|-------------------------------------------|
 | ![Shot 3](https://i.imgur.com/kZWvOLd.png) | ![Shot 4](https://i.imgur.com/pRDAeUn.png) |
 
-## Singular Functions (Main.py)
+## Singular Functions
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
@@ -35,7 +35,7 @@ Main.py - this program lets the user view a times table and tinker with the numb
 
 [![Visualizing Multiplication](https://i.imgur.com/nIpB5yC.png)](https://www.youtube.com/watch?v=Jg_o1jh4RGk)
 
-## Animation (Animation.py)  
+## Animation
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
