@@ -4,7 +4,7 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 ## Contents
 - [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
   - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
-- [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-functions)
+- [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#Singular-Functions)
   - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-demo-video)
 - [Animation](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#Animation)
   - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation-demo-video)
@@ -27,7 +27,7 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-(Main.py) - this program lets the user view a times table and tinker with the number of nodes or the colors of its elements.
+Main.py - this program lets the user view a times table and tinker with the number of nodes or the colors of its elements.
 
 ## Singular Demo Video
 
