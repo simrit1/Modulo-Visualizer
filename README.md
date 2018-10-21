@@ -4,9 +4,9 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 ## Contents
 - [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
   - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
-- [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#Singular-Functions)
+- [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-functions)
   - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-demo-video)
-- [Animation](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#Animation)
+- [Animation](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation)
   - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation-demo-video)
 
 ## Screenshots
