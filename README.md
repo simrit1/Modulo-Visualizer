@@ -3,11 +3,11 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
 
 ## Contents
 - [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
-  - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#theprogram)
-- [Singular Functions (Main.py)](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
-  - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
+  - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
+- [Singular Functions (Main.py)](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-functions-(Main.py))
+  - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-demo-video)
 - [Animation (Animation.py)](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation)
-  - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singularfunctions)
+  - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation-demo-video)
 
 ## Screenshots
 
