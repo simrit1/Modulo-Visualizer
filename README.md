@@ -41,4 +41,8 @@ This program lets the user view a times table and tinker with the number of node
 
 This program lets the user view an animation from a given start factor.
 
+## Animation Demo Video
+
+[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
+
 [![Multiplication in Motion](https://i.imgur.com/uNqEieF.png)](https://www.youtube.com/watch?v=-6k-0unlRC0)
