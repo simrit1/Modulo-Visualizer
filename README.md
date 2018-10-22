@@ -1,5 +1,5 @@
 # Multiplication-Visualizer  
-This is a visualizer for modular arithmetic. This was inspired by a video by Mathologer about patterns in times tables and cardiods in the Mandelbrot set based on the power of the recursive equation. Coded in `python` using `Tkinter` for the GUI and `Turtle` for the canvas.
+This is a visualizer for modular arithmetic. This was inspired by a video by Mathologer about patterns in times tables and cardiods in the Mandelbrot set based on the power of the recursive equation. Coded in `python` using `Tkinter` for the GUI, `Turtle` for the canvas, and `mingus` for the audio.
 
 ## Contents
 - [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
