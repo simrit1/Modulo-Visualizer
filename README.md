@@ -8,7 +8,7 @@ This is a visualizer for modular arithmetic. This was inspired by a video by Mat
   - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-demo-video)
 - [Animation](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation)
   - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation-demo-video)
-- [Find Me](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#find-me)
+- [Find Me](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#find-me-)
 
 ## Screenshots
 
