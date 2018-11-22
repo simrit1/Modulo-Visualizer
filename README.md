@@ -48,7 +48,7 @@ Animation.py - this program lets the user view an animation from a given start f
 
 [![Multiplication in Motion](https://i.imgur.com/uNqEieF.png)](https://www.youtube.com/watch?v=-6k-0unlRC0)
 
-## Find Me
+## Find Me <img src="https://imgur.com/download/HT8IjZ5" width="25"> 
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
