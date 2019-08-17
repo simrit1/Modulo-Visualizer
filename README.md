@@ -34,7 +34,7 @@ Main.py - this program lets the user view a times table and tinker with the numb
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-[![Visualizing Multiplication](https://i.imgur.com/nIpB5yC.png)](https://www.youtube.com/watch?v=Jg_o1jh4RGk)
+[![Visualizing Multiplication](https://imgur.com/download/vM3fSYa)](https://www.youtube.com/watch?v=Jg_o1jh4RGk)
 
 ## Animation
 
@@ -46,7 +46,7 @@ Animation.py - this program lets the user view an animation from a given start f
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-[![Multiplication in Motion](https://i.imgur.com/uNqEieF.png)](https://www.youtube.com/watch?v=-6k-0unlRC0)
+[![Multiplication in Motion](https://imgur.com/download/KDDnzNx)](https://www.youtube.com/watch?v=-6k-0unlRC0)
 
 ## Find Me <img src="https://imgur.com/download/FpDFVjy" width="25"> 
 
