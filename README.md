@@ -2,19 +2,12 @@
 This is a visualizer for modular arithmetic. This was inspired by a video by Mathologer about patterns in times tables and cardiods in the Mandelbrot set based on the power of the recursive equation. Coded in `python` using `Tkinter` for the GUI, `Turtle` for the canvas, and `mingus` for the audio.
 
 ## Contents
-- [Screenshots](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#screenshots)
-  - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
+- [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
 - [Singular Functions](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-functions)
   - [Singular Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#singular-demo-video)
 - [Animation](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation)
   - [Animation Demo Video](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#animation-demo-video)
 - [Find Me](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#find-me-)
-
-## Screenshots
-
-[[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
-
-![Multiplication Overview](https://i.imgur.com/c2jAxCJ.png)
 
 ## The Program
 
