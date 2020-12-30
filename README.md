@@ -45,7 +45,7 @@ Animation.py - this program lets the user view an animation from a given start f
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-- [https://williamambrozic.info](https://williamambrozic.info)
+- [williamambrozic.info](https://williamambrozic.info)
 - [Youtube](https://www.youtube.com/channel/UCL-VushY6SO0ofPTZ8iB3ag)
 
 
