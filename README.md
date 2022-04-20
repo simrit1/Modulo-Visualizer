@@ -26,7 +26,7 @@ Main.py - this program lets the user view a times table and tinker with the numb
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
-Video: https://github.com/WilliamAmbrozic/Multiplication-Visualizer/blob/master/Demo/Visualizing%20Multiplication_%20Modular%20Arithmetic.mp4?raw=true
+https://user-images.githubusercontent.com/26945173/164284364-cb22231f-2b93-4668-9b15-d36b2a9646cb.mp4
 
 ## Animation
 
@@ -39,5 +39,6 @@ Animation.py - this program lets the user view an animation from a given start f
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
 - [williamambrozic.info](https://williamambrozic.info)
+- [Twitter](https://twitter.com/WilliamAmbrozic)
 
 
