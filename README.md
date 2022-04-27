@@ -22,7 +22,7 @@ A visualizer for modular arithmetic. Inspired by Mathologer's video describing p
 
 Main.py - this program lets the user view a times table and tinker with the number of nodes or the colors of its elements.
 
-## Singular Demo Video
+## Visual Demo Video
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#contents)
 
