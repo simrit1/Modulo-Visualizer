@@ -1,5 +1,5 @@
 # Modulo-Visualizer  
-A visualizer for modular arithmetic. Inspired by Mathologer's video describing patterns in times tables and cardioids. Coded in `python` using `Tkinter` for the GUI, `Turtle` for the canvas, and `mingus` for the audio.
+A visualizer for modular arithmetic. Inspired by [a Mathologer video](https://www.youtube.com/watch?v=qhbuKbxJsk8) describing patterns in times tables and cardioids. Coded in `python` using `Tkinter` for the GUI, `Turtle` for the canvas, and `mingus` for the audio.
 
 ## Contents
 - [The Program](https://github.com/WilliamAmbrozic/Multiplication-Visualizer#the-program)
